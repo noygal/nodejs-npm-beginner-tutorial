@@ -22,3 +22,17 @@ A step by step beginner tutorial.
   npx gitignore-dot-io node macos visualstudiocode
   # or use http://gitignore.io/ to create the file
   ```
+
+## Running Node.js scripts #step-2
+
+- ### Create script
+
+  ```bash
+  echo "console.log('hello world 👋 👋 👋')" > index.js
+  ```
+
+- ### Run the script
+  
+  ```bash
+  node index.js
+  ```
