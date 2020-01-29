@@ -36,3 +36,15 @@ A step by step beginner tutorial.
   ```bash
   node index.js
   ```
+
+## Building HTTP server #step-3
+
+- ### Using native `http` module
+
+  Node.js native `http`
+
+- ### RequestListener - using request and response
+
+  Request API - https://nodejs.org/api/http.html#http_class_http_clientrequest
+
+  Response API - https://nodejs.org/api/http.html#http_class_http_serverresponse
