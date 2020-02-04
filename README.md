@@ -48,3 +48,17 @@ A step by step beginner tutorial.
   Request API - https://nodejs.org/api/http.html#http_class_http_clientrequest
 
   Response API - https://nodejs.org/api/http.html#http_class_http_serverresponse
+
+## Working with join #step-4
+
+- ### Resolving file path location by url
+
+  `path` native module - https://nodejs.org/api/path.html
+
+- ### 404 handling
+
+  use `fs` module to find file existence
+
+- ### File stream
+
+  use `fs` module to open a file stream and pipe it to the http response object
