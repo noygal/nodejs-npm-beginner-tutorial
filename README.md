@@ -62,3 +62,7 @@ A step by step beginner tutorial.
 - ### File stream
 
   use `fs` module to open a file stream and pipe it to the http response object
+
+## Environment variables #step-5
+
+- ### Using environment variable
