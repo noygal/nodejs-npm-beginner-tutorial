@@ -66,3 +66,9 @@ A step by step beginner tutorial.
 ## Environment variables #step-5
 
 - ### Using environment variable
+
+## Writing modules #step-6
+
+- CommonJS - exporting
+
+- CommonJS - consumption
