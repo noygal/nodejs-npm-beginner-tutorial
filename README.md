@@ -72,3 +72,65 @@ A step by step beginner tutorial.
 - CommonJS - exporting
 
 - CommonJS - consumption
+
+## Working with npm cli tool #step-7
+
+- ### Initiating npm
+
+  ```bash
+  npm init
+  # or 'npm init -y' for skipping interactive init (replay yes to all)
+  ```
+
+- ### Installing dependencies
+
+  [ESLint](https://eslint.org/docs/user-guide/getting-started) is highly recommend on every JavaScript project we will add it to our project as a development dependency.
+
+  ```bash
+  npm install eslint --save-dev
+  ```
+
+  Notice the `package.json` has been updated with a `"devDependencies"` field, `package-lock.json` file been created, and lastly the `node_module` folder (should be greyed out on the IDE and SHOULD NOT be committed to the repo).
+
+- ### Using cli tools (npx)
+
+  The `package.json` can describe [bin files](https://docs.npmjs.com/files/package.json#bin), those are mounted by npm for use as cli tools.
+
+  ```bash
+  npx eslint --init
+  ##### Those are the answers given in this tutorial
+  # ? How would you like to use ESLint? To check syntax and find problems
+  # ? What type of modules does your project use? CommonJS (require/exports)
+  # ? Which framework does your project use? None of these
+  # ? Does your project use TypeScript? No
+  # ? Where does your code run? Node
+  # ? What format do you want your config file to be in? JavaScript
+  ```
+
+  `npx` is a npm package runner command, it looks for bin file on `./node_modules/.bin/` folder, if none is found then npm downloads it and run a package temporarily.
+
+  Now we can run eslint on our project.
+
+  ```bash
+  npx eslint
+  ```
+
+- ### Installing global tool (not recommended)
+
+  npm accept `-g` flag for managing global dependencies, this is not recommended as at not reflected as a dependency on the `package.json` file, the following examples are for educational purposes.
+
+  ```bash
+  npm install -g eslint
+  ```
+
+  Now `eslint` is available on our terminal
+
+  ```bash
+  eslint .
+  ```
+
+  And and don't forget to uninstall it
+
+  ```bash
+  npm remove -g eslint
+  ```
