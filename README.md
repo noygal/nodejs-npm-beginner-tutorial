@@ -134,3 +134,17 @@ A step by step beginner tutorial.
   ```bash
   npm remove -g eslint
   ```
+
+## npm scripts #step-8
+
+  We can add scripts to our `package.json` file under the `"scripts"` section.
+
+- ### Adding lint script
+
+  By default we have the `"test"` script but we can add any script, npm also support `pre` and `post` prefix for running scripts preceding or following scripts.
+
+- ### Running scripts
+
+  ```bash
+  npm run lint
+  ```

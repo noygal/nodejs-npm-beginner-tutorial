@@ -4,6 +4,9 @@
   "description": "A step by step beginner tutorial.",
   "main": "index.js",
   "scripts": {
+    "prelint": "npx yodasay 'Run eslint, you will.' | npx chalk-cli green",
+    "lint": "eslint .",
+    "postlint": "npx yodasay -f vader 'I find your lack of failure disturbing.' | npx chalk-cli gray",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
