@@ -148,3 +148,18 @@ A step by step beginner tutorial.
   ```bash
   npm run lint
   ```
+
+## Using npm packages #step-9
+
+- ### Installing express
+
+  ```bash
+  npm install express
+  ```
+
+  Notice the `package.json` has been updated with a `"dependencies"` field, `package-lock.json` file been updated as well.
+  
+- ### Static serving with express
+
+  Notice that now files are serve with the correct mime type.
+  
