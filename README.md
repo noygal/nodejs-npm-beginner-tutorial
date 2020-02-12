@@ -6,6 +6,8 @@ A step by step beginner tutorial.
 
 ## Setting up git repository #step-1
 
+[View](https://github.com/noygal/nodejs-npm-beginner-tutorial/tree/step/1)
+
 - ### Git repo initialization
 
   ```bash
@@ -29,6 +31,8 @@ A step by step beginner tutorial.
 
 ## Running Node.js scripts #step-2
 
+[View](https://github.com/noygal/nodejs-npm-beginner-tutorial/tree/step/2)
+
 [Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/1...step/2)
 
 - ### Create script
@@ -47,6 +51,8 @@ A step by step beginner tutorial.
 
 ## Building HTTP server #step-3
 
+[View](https://github.com/noygal/nodejs-npm-beginner-tutorial/tree/step/3)
+
 [Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/2...step/3)
 
 - ### Using native `http` module
@@ -62,6 +68,8 @@ A step by step beginner tutorial.
 ---
 
 ## Serving static files #step-4
+
+[View](https://github.com/noygal/nodejs-npm-beginner-tutorial/tree/step/4)
 
 [Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/3...step/4)
 
@@ -83,6 +91,8 @@ Good guide: https://stackabuse.com/node-http-servers-for-static-file-serving/
 
 ## Environment variables #step-5
 
+[View](https://github.com/noygal/nodejs-npm-beginner-tutorial/tree/step/5)
+
 [Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/4...step/5)
 
 - ### Using environment variable
@@ -90,6 +100,8 @@ Good guide: https://stackabuse.com/node-http-servers-for-static-file-serving/
 ---
 
 ## Writing modules #step-6
+
+[View](https://github.com/noygal/nodejs-npm-beginner-tutorial/tree/step/6)
 
 [Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/5...step/6)
 
@@ -100,6 +112,8 @@ Good guide: https://stackabuse.com/node-http-servers-for-static-file-serving/
 ---
 
 ## Working with npm cli tool #step-7
+
+[View](https://github.com/noygal/nodejs-npm-beginner-tutorial/tree/step/7)
 
 [Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/6...step/7)
 
@@ -167,8 +181,9 @@ Good guide: https://stackabuse.com/node-http-servers-for-static-file-serving/
 
 ## npm scripts #step-8
 
-[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/7...step/8)
+[View](https://github.com/noygal/nodejs-npm-beginner-tutorial/tree/step/8)
 
+[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/7...step/8)
 
   We can add scripts to our `package.json` file under the `"scripts"` section.
 
@@ -185,6 +200,8 @@ Good guide: https://stackabuse.com/node-http-servers-for-static-file-serving/
 ---
 
 ## Using npm packages #step-9
+
+[View](https://github.com/noygal/nodejs-npm-beginner-tutorial/tree/step/9)
 
 [Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/8...step/9)
 
