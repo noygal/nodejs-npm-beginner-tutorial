@@ -2,6 +2,8 @@
 
 A step by step beginner tutorial.
 
+---
+
 ## Setting up git repository #step-1
 
 - ### Git repo initialization
@@ -23,7 +25,11 @@ A step by step beginner tutorial.
   # or use http://gitignore.io/ to create the file
   ```
 
+---
+
 ## Running Node.js scripts #step-2
+
+[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/1...step/2)
 
 - ### Create script
 
@@ -37,7 +43,11 @@ A step by step beginner tutorial.
   node index.js
   ```
 
+---
+
 ## Building HTTP server #step-3
+
+[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/2...step/3)
 
 - ### Using native `http` module
 
@@ -49,7 +59,13 @@ A step by step beginner tutorial.
 
   Response API - https://nodejs.org/api/http.html#http_class_http_serverresponse
 
-## Working with join #step-4
+---
+
+## Serving static files #step-4
+
+[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/3...step/4)
+
+Good guide: https://stackabuse.com/node-http-servers-for-static-file-serving/
 
 - ### Resolving file path location by url
 
@@ -63,17 +79,29 @@ A step by step beginner tutorial.
 
   use `fs` module to open a file stream and pipe it to the http response object
 
+---
+
 ## Environment variables #step-5
+
+[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/4...step/5)
 
 - ### Using environment variable
 
+---
+
 ## Writing modules #step-6
+
+[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/5...step/6)
 
 - CommonJS - exporting
 
 - CommonJS - consumption
 
+---
+
 ## Working with npm cli tool #step-7
+
+[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/6...step/7)
 
 - ### Initiating npm
 
@@ -135,7 +163,12 @@ A step by step beginner tutorial.
   npm remove -g eslint
   ```
 
+---
+
 ## npm scripts #step-8
+
+[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/7...step/8)
+
 
   We can add scripts to our `package.json` file under the `"scripts"` section.
 
@@ -149,7 +182,11 @@ A step by step beginner tutorial.
   npm run lint
   ```
 
+---
+
 ## Using npm packages #step-9
+
+[Compare](https://github.com/noygal/nodejs-npm-beginner-tutorial/compare/step/8...step/9)
 
 - ### Installing express
 
@@ -162,4 +199,3 @@ A step by step beginner tutorial.
 - ### Static serving with express
 
   Notice that now files are serve with the correct mime type.
-  
